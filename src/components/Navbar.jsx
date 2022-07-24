@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { css } from '@emotion/css';
-import '../App.css';
+import './navbar.css';
+import building from '../assets/building.png';
 
 const Menu = () => (
     <>
@@ -28,6 +29,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <div className={storageNavbar}>
+            <div className='navlinks__container'>
             <div className={storageNavbarContainer}>
                 <div className={storageNavbarLinks}>
 
@@ -69,6 +71,22 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      </div>
+      <div className='storage__text-container'>
+        <div className='storage__text'>
+            <p>Self Storage Business Buy.Sell.Learn.</p>
+        </div>
+        <div className='storage__text-lorem'>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Sit sagittis,
+                 aliquam non tortor blandit lobortis. blandit
+            </p>
+        </div>
+        <div className='storage__text-buttons'>
+            <button className='storage__text-button-one'>sell your self storage</button>
+            <button className='storage__text-button-two'>activate your self storage</button>
+        </div>
+      </div>
         </div>
     )
 }
@@ -77,7 +95,8 @@ const storageNavbar = css`
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  background: linear-gradient(-240.67deg, rgba(24, 73, 198, 0.9) 50.54%, rgba(24, 73, 198, 0) 85.02%), url(storage-in-an-industrial-building-for-rental-to-en-2022-01-20-01-51-31-utc.jpg);
+  padding: 20px 0 100px 0;
+  background: linear-gradient(-240.67deg, rgba(24, 73, 198, 0.9) 50.54%, rgba(24, 73, 198, 0) 85.02%), url(${building});
 `
 const storageNavbarContainer = css`
   display: flex;
@@ -149,6 +168,12 @@ const storageNavBarMenu = css `
 const storageNavbarMenuContainerLinksSign = css`
   display: none;
   @media only screen and (max-width: 1050px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 320px){
     display: flex;
     justify-content: center;
     align-items: center;

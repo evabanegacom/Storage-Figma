@@ -1,0 +1,150 @@
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.storage__navbar-menu_container-links button {
+        background: #FFCE31;
+    border-radius: 10px;
+    padding: 8px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.storage__navbar-menu_container-links div {
+    cursor: pointer;
+}
+
+.storage__navbar-menu_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    background: var(--color-footer);
+    right: 0;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+  }
+
+  .storage__navbar-menu_container div {
+    margin: 10px 0;
+  }
+
+  .storage__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .storage__text {
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 800;
+   font-size: 60px;
+   line-height: 75px;
+   text-align: center;
+  }
+
+  .storage__text p {
+    width: 700px;
+  }
+
+  .storage__text-lorem {
+    font-weight: 500;
+   font-size: 20px;
+   line-height: 33px;
+  text-align: center;
+   color: #FFFFFF;
+   width: 594px;
+   margin-top: 20px;
+  }
+
+  .storage__text-buttons {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .storage__text-button-one {
+    width: 251px;
+    height: 60px;
+    background: #FFCE31;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .storage__text-button-two {
+    width: 251px;
+    height: 60px;
+    background: #FFF;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 600px){
+    .navlinks__container {
+      font-size: 25px;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px){
+    .storage__text-buttons button{
+        width: 50%;
+      }
+
+  }
+
+
+  @media only screen and (max-width: 1050px){
+
+    .storage__navbar-menu_container-links {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .storage__text {
+        color: #fff;
+        font-family: 'Poppins';
+        font-weight: 800;
+       font-size: 30px;
+       line-height: 45px;
+       text-align: center;
+      }
+    .storage__text p {
+        width: 300px;
+      }
+
+      .storage__text-lorem {
+        width: fit-content;
+      }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
