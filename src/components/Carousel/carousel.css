@@ -1,0 +1,20 @@
+.carousel {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.carousel div {
+  width: 26.98px;
+  border-radius: 50%;
+  height: 26.03px;
+  border: 1px solid #DBDEE7;
+}
+
+.carousel__div {
+    margin-left: 10px;
+}
+
+.second {
+    background: #1849C6;
+}
