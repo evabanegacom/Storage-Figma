@@ -111,6 +111,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+border: none;
   }
 @media only screen and (max-width: 1050px){
     display: none;
@@ -175,7 +176,7 @@ const storageNavbarMenuContainerLinksSign = css`
 
 @media only screen and (max-width: 320px){
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 300px;
 }
@@ -183,4 +184,4 @@ const storageNavbarMenuContainerLinksSign = css`
 
 
 
-export default Navbar
+export default Navbar;

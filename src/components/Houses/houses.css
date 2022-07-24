@@ -1,0 +1,80 @@
+.houses {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.houses:nth-last-child(-n+2) {
+    color:red;
+}
+
+
+.houses__images {
+    display: flex;
+    flex-direction: column;
+    background: #F6F8FD;
+    border: 1px solid #F9F9F9;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 0 0 30px 0;
+}
+
+.houses__location-div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 20px 10px;
+}
+
+.houses__elements{
+  margin-left: 20px;
+}
+
+.houses__location-header {
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align:center;
+    color: rgba(0, 1, 3, 0.7);
+}
+
+.houses__location-text {
+    font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+margin-left: 10px;
+color: rgba(0, 1, 3, 0.7);
+
+}
+
+.houses__location-button {
+display: flex;
+justify-content: center;
+}
+
+.houses__location-button button {
+    background: #1849C6;
+    border-radius: 10px;
+    padding: 15px 40px;
+    color: #fff;
+    border: none;
+}
+
+.houses__location-icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px){
+    .houses__elements {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 300px){
+  .houses__images {
+    width: 100%;
+  }
+}
