@@ -94,6 +94,9 @@
   }
 
   @media only screen and (max-width: 600px){
+    .storage__text-buttons {
+      padding: 0 10px;
+    }
     .storage__text-buttons button{
         width: 50%;
       }
