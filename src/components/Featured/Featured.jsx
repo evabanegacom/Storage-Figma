@@ -1,10 +1,10 @@
 import React from 'react';
 import './featured.css';
 
-const Featured = () => {
+const Featured = ({header}) => {
   return (
     <div className='featured'>
-        <div className='featured__heading'>Featured Self Storage</div>
+        <div className='featured__heading'>{header}</div>
         <div className='featured__text'>
         Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit. 

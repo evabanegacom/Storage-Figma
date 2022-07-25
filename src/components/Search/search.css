@@ -1,0 +1,16 @@
+.search {
+    display: flex;
+  justify-content: center;
+}
+
+.search__parameters-div {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding: 20px 0;
+    margin-top: -30px;
+    box-shadow: 0px 5px 50px rgba(1, 31, 109, 0.1);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  width: 82%;
+}
