@@ -1,3 +1,24 @@
 .searchedGroup-div {
   background: url('../../assets/BG.png'), #1849C6;
 }
+
+
+.searchedGroup__button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+
+}
+
+.searchedGroup-div button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 40px;
+    background: #FFCE31;
+border-radius: 10px;
+border: none;
+    color: rgba(0, 1, 3, 0.7);
+    
+}

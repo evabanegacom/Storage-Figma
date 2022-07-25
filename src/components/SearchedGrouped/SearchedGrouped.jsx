@@ -8,6 +8,9 @@ const SearchedGrouped = () => {
     <div className='searchedGroup-div'>
      <Search />
      <Grouped />
+     <div className='searchedGroup__button-container'>
+       <button>View More Listings</button>
+     </div>
     </div>
   )
 }
