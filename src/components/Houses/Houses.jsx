@@ -5,8 +5,26 @@ import vector from '../../assets/Vector.svg';
 import vectorOne from '../../assets/Vector (1).svg';
 import vectorTwo from '../../assets/Vector (2).svg';
 import vectorThree from '../../assets/Vector (3).svg';
+import { Box, Grid } from '@mui/material';
+
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles(() => ({
+  content: {
+    flexGrow: 1,
+  },
+  root: {
+    flexGrow: 1,
+  },
+
+  secondMedia: {
+    display: 'none'
+  },
+}));
+
 
 const Houses = () => {
+  const classes = useStyles();
   const Elements = () => (
     <div className='houses__images'>
       <div className='houses__images-one'><img src={pics} alt='location' /></div>
@@ -32,11 +50,11 @@ const Houses = () => {
     </div>
   )
   return (
-    <div className='houses'>
-        <Elements />
-        <div className='houses__elements'><Elements /></div>
-        <div className='houses__elements'><Elements /></div>
-    </div>
+    <Grid style={{paddingRight: 0, paddingLeft: 0, marginLeft: 0}} container justify='center' spacing={3}>
+        <Grid style={{paddingTop: 0, paddingLeft: 0}} item xs={12} sm={6} md={6} lg={4}><Elements /></Grid>
+        <Grid style={{paddingTop: 0, paddingLeft: 0}} item xs={12} sm={6} md={6} lg={4}><Elements /></Grid>
+        <Grid style={{paddingTop: 0, paddingLeft: 0}} item xs={12} sm={6} md={6} lg={4}><Elements /></Grid>
+    </Grid>
   )
 }
 

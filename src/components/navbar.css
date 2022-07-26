@@ -78,6 +78,7 @@
     background: #FFCE31;
     border-radius: 10px;
     margin-right: 10px;
+    border: none;
   }
 
   .storage__text-button-two {

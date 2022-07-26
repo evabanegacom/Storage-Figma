@@ -1,15 +1,9 @@
 .houses {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
   flex-wrap: wrap;
   overflow-x: hidden;
 }
-
-.houses:nth-last-child(-n+2) {
-    color:red;
-}
-
 
 .houses__images {
     display: flex;
@@ -27,8 +21,12 @@
   margin: 10px 0 20px 10px;
 }
 
-.houses__elements{
+.houses__elements {
   margin-left: 20px;
+}
+
+.houses__images-one img {
+  width: 100%;
 }
 
 .houses__location-header {
@@ -68,6 +66,17 @@ margin-top: 20px;
     align-items: center;
 }
 
+@media only screen and (max-width: 900px) and (min-width: 800px){
+  .houses__elements {
+    margin-left: 20px;
+    width: 25%;
+  }
+
+  .first__houses {
+    width: 25%;
+  }
+}
+
 @media only screen and (max-width: 767px){
     .houses__elements {
         margin: 0;
@@ -76,6 +85,6 @@ margin-top: 20px;
 
 @media only screen and (max-width: 300px){
   .houses__images {
-    width: 270px;
+    width: 280px;
   }
 }
