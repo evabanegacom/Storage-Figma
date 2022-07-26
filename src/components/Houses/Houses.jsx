@@ -50,11 +50,13 @@ const Houses = () => {
     </div>
   )
   return (
-    <Grid style={{paddingRight: 0, paddingLeft: 0, marginLeft: 0}} container justify='center' spacing={3}>
-        <Grid style={{paddingTop: 0, paddingLeft: 0}} item xs={12} sm={6} md={6} lg={4}><Elements /></Grid>
-        <Grid style={{paddingTop: 0, paddingLeft: 0}} item xs={12} sm={6} md={6} lg={4}><Elements /></Grid>
-        <Grid style={{paddingTop: 0, paddingLeft: 0}} item xs={12} sm={6} md={6} lg={4}><Elements /></Grid>
+    <main className={classes.content}>
+    <Grid style={{paddingRight: 0, paddingLeft: 0, marginLeft: 0}} container justifyContent="center" spacing={4}>
+        <Grid  className='gridItem' item xs={12} sm={6} md={4} lg={3} ><Elements /></Grid>
+        <Grid  className='gridItem' item xs={12} sm={6} md={4} lg={3}><Elements /></Grid>
+        <Grid  className='gridItem' item xs={12} sm={6} md={4} lg={3}><Elements /></Grid>
     </Grid>
+    </main>
   )
 }
 

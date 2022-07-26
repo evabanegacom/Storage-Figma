@@ -1,10 +1,3 @@
-.houses {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow-x: hidden;
-}
-
 .houses__images {
     display: flex;
     flex-direction: column;
@@ -66,21 +59,10 @@ margin-top: 20px;
     align-items: center;
 }
 
-@media only screen and (max-width: 900px) and (min-width: 800px){
-  .houses__elements {
-    margin-left: 20px;
-    width: 25%;
+@media only screen and (max-width: 768px){
+  .gridItem {
+    padding-left: 10px!important;
   }
-
-  .first__houses {
-    width: 25%;
-  }
-}
-
-@media only screen and (max-width: 767px){
-    .houses__elements {
-        margin: 0;
-    }
 }
 
 @media only screen and (max-width: 300px){

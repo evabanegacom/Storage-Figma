@@ -8,8 +8,8 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  
-
+  padding-bottom: 4rem;
+  align-items: center;
 }
 
 .searchedGroup-div button {
