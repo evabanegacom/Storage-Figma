@@ -1,7 +1,7 @@
 import React from 'react';
 import './houses.css';
 import pics from '../../assets/pics.svg';
-import vector from '../../assets/Vector.svg';
+import vector from '../../assets/loc.svg';
 import vectorOne from '../../assets/Vector (1).svg';
 import vectorTwo from '../../assets/Vector (2).svg';
 import vectorThree from '../../assets/Vector (3).svg';
@@ -15,10 +15,6 @@ const useStyles = makeStyles(() => ({
   },
   root: {
     flexGrow: 1,
-  },
-
-  secondMedia: {
-    display: 'none'
   },
 }));
 

@@ -59,9 +59,15 @@ margin-top: 20px;
     align-items: center;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) and (min-width: 650px){
   .gridItem {
     padding-left: 10px!important;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .gridItem {
+    padding-left: 0!important;
   }
 }
 
