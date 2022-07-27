@@ -7,6 +7,7 @@ import SearchedGrouped from './components/SearchedGrouped/SearchedGrouped';
 import LadyStorage from './components/LadyStorage/LadyStorage';
 import LearningSection from './components/LearningSection/LearningSection';
 import Query from './components/Queries/Queries';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <LadyStorage />
       <LearningSection />
       <Query />
+      <Footer />
     </div>
   );
 }

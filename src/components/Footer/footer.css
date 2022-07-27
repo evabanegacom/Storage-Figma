@@ -1,0 +1,25 @@
+.footer__container {
+  padding: 5rem 3rem;
+}
+
+.footer__storageConnect {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: center;
+}
+
+.footer__storageConnect-one {
+  color: #1849C6;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+}
+
+.footer__storageConnect-one-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
