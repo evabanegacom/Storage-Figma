@@ -35,6 +35,7 @@ const Elements = () => (
   
 const LearningSection = () => {
   return (
+    <div className='learningSection__container'>
     <div className='learningSection__div'>
         <div className='learningSection__div-header'>
             Learn Everything About Buying, Selling, and Operating a Self Storage
@@ -53,6 +54,7 @@ const LearningSection = () => {
         <div className='learningSection__button-container'>
        <button>Read More</button>
         </div>
+    </div>
     </div>
   )
 }
