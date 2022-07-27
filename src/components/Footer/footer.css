@@ -5,7 +5,6 @@
 .footer__storageConnect {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   align-items: center;
 }
 
@@ -16,10 +15,74 @@
   align-items: center;
   text-align: left;
   width: 100%;
+  font-weight: 700;
+}
+
+.footer__storageConnect-active {
+  font-size: 16px;
+line-height: 20px;
+margin-top: 20px;
+color: #4A4A4A;
+}
+
+.footer__storageConnect-socials {
+  margin-top: 20px;
+}
+
+.footer__storageConnect-drop-down {
+  margin-top: 30px;
+}
+
+.footer__storageConnect-drop-down select {
+  width: 211px;
+height: 38.5px;
+border: 1px solid #1849C6;
+border-radius: 5px;
 }
 
 .footer__storageConnect-one-text {
     font-size: 16px;
     line-height: 24px;
     color: #4A4A4A;
+    margin-top: 10px;
+}
+
+.footer__storageConnect-header {
+  font-weight: 700;
+}
+
+.footer__storageConnect-input input{
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.footer__storageConnect-button {
+  margin-top: 20px;
+}
+
+.footer__storageConnect-button button {
+  background: #1849C6;
+border-radius: 10px;
+border-radius: 10px;
+padding: 10px 20px 10px 20px;
+color: #fff;
+}
+
+.footer__storageConnect-one-copy-right {
+  font-size: 16px;
+    line-height: 24px;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px){
+  .footer__storageConnect-one-text {
+    text-align: center;
+}
+
+.footer__storageConnect-one {
+  display: flex;
+  justify-content: center;
+}
 }
