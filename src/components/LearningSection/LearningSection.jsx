@@ -51,7 +51,7 @@ const LearningSection = () => {
             </Grid>
         </div>
         <div className='learningSection__button-container'>
-       <button>View More Listings</button>
+       <button>Read More</button>
         </div>
     </div>
   )

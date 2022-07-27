@@ -40,5 +40,25 @@ color: rgba(0, 1, 3, 0.7);
 margin-top: 20px;
 }
 
-.storage__div-image img{
-}
+@media only screen and (max-width: 900px){
+    .lady__div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .storage__div-first {
+      display: flex;
+      width: 90%!important;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .storage__div-header {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 50px!important;
+      color: #021850;
+  }
+  }
