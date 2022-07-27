@@ -5,6 +5,7 @@ import Carousel from './components/Carousel/Carousel';
 import Storage from './components/Storage/Storage';
 import SearchedGrouped from './components/SearchedGrouped/SearchedGrouped';
 import LadyStorage from './components/LadyStorage/LadyStorage';
+import LearningSection from './components/LearningSection/LearningSection';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <SearchedGrouped />
       <Storage />
       <LadyStorage />
+      <LearningSection />
     </div>
   );
 }
