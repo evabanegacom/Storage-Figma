@@ -1,5 +1,16 @@
+@font-face {
+  font-family: gotham;
+  src: url('../../Fonts/Roboto-Medium.ttf')
+}
+
+:root {
+  --Roboto: Roboto;
+}
+
+
 .footer__container {
   padding: 5rem 3rem;
+  font-family: var(--Roboto);
 }
 
 .footer__storageConnect {

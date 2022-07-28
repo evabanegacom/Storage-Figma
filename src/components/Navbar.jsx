@@ -3,20 +3,19 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { css } from '@emotion/css';
 import './navbar.css';
 import building from '../assets/building.png';
-
 const Menu = () => (
     <>
         <div>
-        Active
+        Active Listings
         </div>
         <div>
-        What is GPT3
+        Sell Your Self Storage
         </div>
         <div>
-        Open AI
+        Free Evaluation
         </div>
         <div>
-        Case Studies
+        Learn
         </div>
         <button>
             contact
@@ -74,7 +73,7 @@ const Navbar = () => {
       </div>
       <div className='storage__text-container'>
         <div className='storage__text'>
-            <p>Self Storage Business Buy.Sell.Learn.</p>
+            <p>Self Storage Business Buy. Sell. Learn.</p>
         </div>
         <div className='storage__text-lorem'>
             <p>Lorem ipsum dolor sit amet, 
@@ -127,15 +126,13 @@ const storageNavbarLinks = css`
 const storageNavbarLinksContainer = css`
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 60%;
   justify-content: space-between;
   div {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;

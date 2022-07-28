@@ -1,6 +1,7 @@
 .search {
     display: flex;
   justify-content: center;
+  font-family: var(--Poppins);
 }
 
 .search__parameters-div {

@@ -3,6 +3,10 @@
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+.navlinks__container {
+  font-family: var(--Poppins);
+}
+
 .storage__navbar-menu_container-links button {
         background: #FFCE31;
     border-radius: 10px;
@@ -16,6 +20,13 @@
 
 .storage__navbar-menu_container-links div {
     cursor: pointer;
+    font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
 }
 
 .storage__navbar-menu_container {
@@ -79,6 +90,7 @@
     border-radius: 10px;
     margin-right: 10px;
     border: none;
+    font-size: 15px;
   }
 
   .storage__text-button-two {
@@ -86,6 +98,7 @@
     height: 60px;
     background: #FFF;
     border-radius: 10px;
+    font-size: 15px;
   }
 
   @media only screen and (max-width: 800px) and (min-width: 600px){

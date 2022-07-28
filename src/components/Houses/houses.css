@@ -6,6 +6,7 @@
     border-radius: 10px;
     margin-top: 30px;
     padding: 0 0 30px 0;
+    font-family: var(--Poppins);
 }
 
 .houses__location-div {

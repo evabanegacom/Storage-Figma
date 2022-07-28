@@ -1,3 +1,8 @@
+ .footer__container {
+    padding: 5rem 3rem;
+    font-family: var(--Poppins);
+  }
+
 .carousel {
     display: flex;
     margin-top: 50px;

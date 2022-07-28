@@ -4,6 +4,7 @@
     margin-top: 20px;
     flex-wrap: wrap;
     overflow-x: hidden;
+    font-family: var(--Poppins);
   }
   
   .grouped:nth-last-child(-n+2) {

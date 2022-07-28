@@ -1,6 +1,7 @@
 .learningSection__container{
   background: #1849C6;
   border-radius: 300px 0px 0px 0px;
+  font-family: var(--Poppins);
 }
 
 .learningSection__div {
@@ -147,4 +148,10 @@ margin-top: 20px;
         text-align: center;
         width: fit-content;
     }
+}
+
+@media screen and (max-width: 550px) {
+  .learningsSection__grid-item {
+    width: 90%;
+  }
 }

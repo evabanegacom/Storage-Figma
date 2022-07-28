@@ -45,10 +45,10 @@ const LearningSection = () => {
         </div>
         <div className='learningSection__grid'>
             <Grid container justifyContent='center' spacing={2}>
-                <Grid item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
-                <Grid item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
-                <Grid item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
-                <Grid item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
+                <Grid className='learningsSection__grid-item' item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
+                <Grid className='learningsSection__grid-item' item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
+                <Grid className='learningsSection__grid-item' item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
+                <Grid className='learningsSection__grid-item' item><Elements item xs={12} sm={6} md={4} lg={4}/></Grid>
             </Grid>
         </div>
         <div className='learningSection__button-container'>
